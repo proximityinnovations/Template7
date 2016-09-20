@@ -1,18 +1,18 @@
 /**
  * Template7 1.1.2
  * Mobile-first JavaScript template engine
- * 
+ *
  * http://www.idangero.us/template7/
- * 
+ *
  * Copyright 2016, Vladimir Kharlampidi
  * The iDangero.us
  * http://www.idangero.us/
- * 
+ *
  * Licensed under MIT
- * 
+ *
  * Released on: September 1, 2016
- */
-window.Template7 = (function () {
+ */ 
+module.exports = (function () {
     'use strict';
     function isArray(arr) {
         return Object.prototype.toString.apply(arr) === '[object Array]';
@@ -482,4 +482,3 @@ window.Template7 = (function () {
     t7.partials = Template7.prototype.partials;
     return t7;
 })();
-//# sourceMappingURL=template7.js.map

@@ -1,4 +1,4 @@
-window.Template7 = (function () {
+module.exports = (function () {
     'use strict';
     function isArray(arr) {
         return Object.prototype.toString.apply(arr) === '[object Array]';
