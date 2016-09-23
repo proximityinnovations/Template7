@@ -468,3 +468,5 @@ module.exports = (function () {
     t7.partials = Template7.prototype.partials;
     return t7;
 })();
+
+window.Template7 = module.exports;
